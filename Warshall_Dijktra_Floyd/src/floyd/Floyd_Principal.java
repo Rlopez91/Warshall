@@ -66,6 +66,7 @@ public class Floyd_Principal {
 			    path[i][i] = i;
 
 			shortpath = shortestpath(m, path);
+			
 			// Prints out shortest distances.
 			System.out.println("  0 1 2 3");
 			System.out.println("  ---------");
